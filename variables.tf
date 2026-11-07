@@ -19,7 +19,7 @@ variable "existing_vpc_name" {
 variable "node_instance_type" {
   description = "EC2 instance type for the EKS managed node group."
   type        = string
-  default     = "t3.medium"
+  default     = "t3.small"
 }
 
 variable "node_min_size" {

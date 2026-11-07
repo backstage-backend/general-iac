@@ -3,7 +3,7 @@
 This stack creates only the shared infrastructure needed by backend APIs:
 
 - EKS `eks-backend-apis` on Kubernetes `1.37`
-- A managed node group using smaller `t3.medium` instances
+- A managed node group using smaller `t3.small` instances
 - The `api-gtw-lambda-apis` regional REST API
 
 The EKS cluster uses the private subnets from the existing `backstage-vpc`.
